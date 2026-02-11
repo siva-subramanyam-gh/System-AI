@@ -1,0 +1,28 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (venv) ---
+# Ignores all common names for virtual envs
+venv/
+env/
+.venv/
+.env
+
+# --- VS Code Settings ---
+.vscode/
+*.code-workspace
+
+# --- Neural Governor Specific ---
+# Ignore the model files because they change often (RL training)
+*.pkl
+thermal_model.pkl
+q_table.pkl
+
+# Ignore logs if you add them later
+*.log
+
+# --- OS Junk Files ---
+.DS_Store
+Thumbs.db
